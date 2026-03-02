@@ -1,16 +1,26 @@
-# login_ui
+# Flutter Login UI
 
-A new Flutter project.
+## Week 1: Basic Flutter Development and UI Building
 
-## Getting Started
+### Learning Objectives
+- Understand Flutter's basic structure.
+- Build a simple and responsive login interface.
+- Implement basic form validation.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+### Tasks Completed
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **Created Login Screen**
+   - Two `TextFormField`s:
+     - Email
+     - Password
+   - A `FlatButton`/`TextButton` for **Login**
+   - A `Text` widget for **"Forgot Password?"**
+   - Layout structured using `Column`, `Row`, and `Container`.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. **Form Validation**
+   - Email field validates proper email format.
+   - Password field ensures it is not empty.
+
+---
