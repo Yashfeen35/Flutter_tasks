@@ -1,16 +1,29 @@
-# task_one
 
-A new Flutter project.
+---
 
-## Getting Started
+### **2️⃣ README for Navigation (`README_Navigation.md`)**
 
-This project is a starting point for a Flutter application.
+```markdown
+# Flutter Navigation Between Screens
 
-A few resources to get you started if this is your first Flutter project:
+## Week 1: Basic Flutter Development and UI Building
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Learning Objectives
+- Learn to navigate between multiple screens in Flutter.
+- Understand `Navigator.push()` for screen transitions.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+### Tasks Completed
+
+1. **Created Home Screen**
+   - Second screen of the app.
+   - Simple layout with a `Text` widget to indicate Home Screen.
+
+2. **Implemented Navigation**
+   - Navigation from Login Screen to Home Screen:
+```dart
+Navigator.push(
+  context,
+  MaterialPageRoute(builder: (context) => HomeScreen()),
+);
